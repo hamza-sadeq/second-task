@@ -1,0 +1,407 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(163,163,163,1);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(163,163,163,1);
+  box-shadow: 0px 1px 0px 0px rgba(163,163,163,1);
+  margin-bottom: 30px;
+}
+
+.search-input{
+  padding: 10px 10px;
+  border: none;
+  margin-left: 70px;
+}
+
+.search-input::placeholder{
+  position: absolute;
+  left: 30px;
+  transition: 0.5s ease;
+}
+
+.search-input:focus::placeholder{
+  border: none;
+  left: 10px;
+}
+
+.search-input:focus{
+  outline: none;
+}
+
+.search-icon{
+  position: absolute;
+  left: 55px;
+  top: 50px;
+  color: #777;
+}
+
+.my-name{
+  font-size: 20px;
+  padding: 5px 5px;
+  background-color: white;
+}
+
+.social-icons{
+  margin-left: 110px;
+  margin-right: 70px;
+}
+
+.right-head{
+  padding-right: 10px;
+  color: #777;
+  transition: 0.5s ease;
+}
+
+.right-head:hover{
+  color: black;
+}
+
+.number-of-cart{
+  border-radius: 50%;
+  width: 17px;
+  background-color: rgb(202, 16, 202);
+  border: none;
+  color: white;
+  height: 17px;
+  text-align: center;
+  position: absolute;
+  top: 23px;
+  right: 70px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav span{
+  font-size: 12px;
+  color: #777;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  font-weight: 700;
+}
+
+.nav-z{
+  font-size: 12px;
+  color: #777;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  font-weight: 700;
+}
+
+nav p,
+.nav-p{
+  padding-left: 0;
+  font-size: 12px;
+  padding-right: 5px;
+  color: #777;
+  cursor: pointer;
+  transition: 0.4s ease;
+  font-weight: 700;
+}
+
+nav a{
+  text-decoration: none;
+  padding-right: 18px;
+}
+
+nav span:hover,
+.nav-p:hover,
+.nav-z:hover{
+  color: rgb(202, 16, 202);
+}
+
+figure{
+  background-color: rgb(245, 245, 245);
+  padding: 15px;
+}
+
+figure p{
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 60px;
+}
+
+figure samp{
+  color: #777;
+}
+
+figure span{
+  color: rgb(202, 16, 202);
+  font-weight: 500;
+}
+
+section{
+  padding-top: 80px;
+  padding-bottom: 100px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(163,163,163,1);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(163,163,163,1);
+  box-shadow: 0px 1px 0px 0px rgba(163,163,163,1);
+}
+
+.blog-1{
+  width: 600px;
+  padding-left: 70px;
+}
+
+section hr{
+  border-top: 3px rgb(202, 16, 202) solid;
+  width: 3%;
+  border-radius: 5px;
+  position: absolute;
+  top: 19rem;
+  right: 34.7rem;
+}
+
+.first-container{
+  position: absolute;
+  top: 20rem;
+  right: 9.2rem;
+}
+
+.how-we-started{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.lorem{
+  width: 450px;
+  line-height: 28px;
+  color: #777;
+  font-size: 14px;
+}
+
+.team-div{
+  padding-top: 100px;
+}
+
+div hr{
+  border-top: 2px rgb(202, 16, 202) solid;
+  width: 3%;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.Team{
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.person-img{
+  width: 100px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.name{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+.name1{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 11px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+.job{
+  font-size: 13px;
+  color: #777;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+.job2{
+  font-size: 13px;
+  color: #777;
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+
+.container-person-1{
+  width: 300px;
+  margin-left: 100px;
+}
+
+.person-description{
+  font-size: 14px;
+  color: #777;
+  width: 280px;
+  position: relative;
+  left: -50px;
+  line-height: 20px;
+}
+
+.person-description span{
+  padding-left: 66px;
+}
+
+.person-description samp{
+  position: relative;
+  left: -13px;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 150px;
+}
+
+.job1{
+  font-size: 13px;
+  color: #777;
+  margin-left: 40px;
+  padding-bottom: 20px;
+}
+
+.betwwen-footer-main{
+  color: #777;
+}
+
+footer{
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.nav{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: black;
+}
+
+footer p{
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.flex2{
+  margin-top: 45px;
+}
+
+footer img{
+  width: 150px;
+}
+
+.img-footer{
+  background-color: aquamarine;
+  padding-right: 130px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.you-came-to-the-right-place{
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(173, 2, 173);
+  margin-bottom: 5px;
+}
+
+.icon-footer{
+  color: rgb(173, 2, 173);
+  position: relative;
+  top: -33px;
+  right: 30px;
+}
+
+.subscribe{
+  font-size: 20px;
+  color: black;
+  padding-top: 20px;
+  position: relative;
+  right: 40px;
+
+}
+
+.email-input{
+  border: 1px rgb(184, 184, 184) solid;
+  border-radius: 2px;
+  padding: 10px 0;
+  padding-right: 50px;
+  padding-left: 10px;
+  position: relative;
+  right: 40px;
+}
+
+.email-input:focus{
+  outline: none;
+}
+
+.send{
+  color: white;
+  background-color: rgb(173, 2, 173);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-top: 1px;
+  position: absolute;
+  right: 90px;
+  letter-spacing: 1px;
+}
+
+.footer1{
+  padding-bottom: 50px;
+}
+
+.footer1 samp{
+  color: rgb(173, 2, 173);
+  font-weight: 600;
+}
+
+.truck-icon{
+  font-size: 30px;
+}
+
+.free-shipping{
+  font-weight: 600;
+  padding: 0 10px;
+  line-height: 40px;
+}
+
+.lorem1{
+  padding-left: 0 50px;
+  color: #777;
+  width: 290px;
+  margin-left: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  margin-bottom: 100px;
+  padding-top: 100px;
+}
+
+.free-returns,
+.customer-support{
+  font-weight: 600;
+  padding: 0 15px;
+  line-height: 40px;
+}
